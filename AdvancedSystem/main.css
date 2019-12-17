@@ -1,0 +1,37 @@
+body{
+  font-family: 'Open Sans', sans-serif;
+
+}
+
+#slides{
+  width: 99%;
+  margin: auto  ;
+  /*height: 500px;*/
+}
+
+#what_we_do-list .do{
+  border-top: 1px solid #ddd;
+  padding-top: 20px;
+  padding-bottom: 25px;
+}
+
+#what_we_do-list .do .do-title {
+    font-family: "DINBold";
+    font-weight: bold;
+    font-size: 24px;
+    color: #000;
+    margin-bottom: 15px;
+}
+
+#what_we_do-list .do .do-description {
+    font-family: "Lato" !important;
+}
+
+#what_we_do-list .do .do-description li {
+    font-family: "Lato" !important;
+    font-size: 18px;
+    line-height: 27px;
+    list-style-type: disc;
+    color: #333;
+    margin-left: 20px;
+}
