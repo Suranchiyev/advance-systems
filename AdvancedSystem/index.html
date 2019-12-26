@@ -1,117 +1,225 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-      <meta charset="utf-8">
-      <meta http-equiv="X-UA-Compatible" content="IE=edge">
-      <meta name="viewport" content="width=device-width, initial-scale=1.0">
-      <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
-      <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
-      <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
-      <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
-      <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700,400italic" as="style" onload="this.onload=null;this.rel='stylesheet'">
-      <link rel="stylesheet" href="main.css">
-    </head>
-    <body>
-      <header>
-        <nav class="navbar navbar-expand-lg navbar-light bg-light">
-          <a class="navbar-brand" href="#">
-            <img src="/docs/4.0/assets/brand/bootstrap-solid.svg" width="30" height="30" class="d-inline-block align-top" alt="">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+          integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+            integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+            crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+            integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+            crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+            integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+            crossorigin="anonymous"></script>
+    <script src="js/main.js"></script>
+    <script src="js/index.js"></script>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700,400italic" as="style"
+          onload="this.onload=null;this.rel='stylesheet'">
+    <link rel="stylesheet" href="main.css">
+
+</head>
+<body>
+<header>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <a class="navbar-brand" href="#">
+            <img src="/docs/4.0/assets/brand/bootstrap-solid.svg" width="30" height="30"
+                 class="d-inline-block align-top" alt="">
             Advanced System
-          </a>
-          <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+        </a>
+        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
             <div class="navbar-nav">
-              <a class="nav-item nav-link active" href="index.html">Home <span class="sr-only">(current)</span></a>
-              <a class="nav-item nav-link" href="clients.html">Clients</a>
-              <a class="nav-item nav-link" href="#">About Us</a>
-              <a class="nav-item nav-link" href="#">Contact Us</a>
+                <a class="nav-item nav-link active" href="index.html">Home <span class="sr-only">(current)</span></a>
+                <a class="nav-item nav-link" href="clients.html">Clients</a>
+                <a class="nav-item nav-link" href="aboutus.html">About Us</a>
+                <a class="nav-item nav-link" href="contactus.html">Contact Us</a>
             </div>
-          </div>
-        </nav>
-      </header>
-      <div class="row" id="slides">
-        <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
-          <div class="carousel-inner">
+        </div>
+    </nav>
+</header>
+<div class="row" id="slides">
+    <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
+        <div class="carousel-inner">
             <div class="carousel-item active" id="c-item-1">
-              <img class="d-block w-100"  src="img/home_page.jpg" alt="how soon can you start?">
+                <img class="d-block w-100" src="img/home_page.jpg" alt="how soon can you start?">
             </div>
-          </div>
         </div>
-      </div>
-      <br>
-      <br>
-      <br>
-      <div class="container">
-        <h1 class="text-center">JOIN OUR CAREER NETWORK</h1>
-        <br>
-        <p class="text-center">Our Career Network will enhance your job search and application process. Whether you choose to apply or just leave your information, we look forward to staying connected with you.</p>
-        <div class="text-center">
-          <button name="action-btn" class="btn btn-success">&nbsp;&nbsp;JOIN&nbsp;&nbsp;</button>
-        </div>
+    </div>
+</div>
+<br>
+<br>
+<br>
+<div class="container" id="join-network">
+    <h1 class="text-center">JOIN OUR CAREER NETWORK</h1>
+    <br>
+    <p class="text-center">Our Career Network will enhance your job search and application process. Whether you choose
+        to apply or just leave your information, we look forward to staying connected with you.</p>
+    <div class="text-center">
+        <button name="action-btn" class="btn btn-success" type="button" data-toggle="modal" data-target="#exampleModal">
+            &nbsp;&nbsp;JOIN&nbsp;&nbsp;
+        </button>
+    </div>
 
-      </div>
-      <br>
-      <br>
-      <br>
-      <br>
-      <br>
-      <br>
-      <div class="container">
-        <h1 class="text-center">OUR DIVISIONS</h1>
-        <br>
-        <br>
-        <br>
-        <div class="row">
-          <div class="col-6">
+</div>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<div class="container">
+    <h1 class="text-center">OUR DIVISIONS</h1>
+    <br>
+    <br>
+    <br>
+    <div class="row">
+        <div class="col-6">
             <img name="div-img" src="img/finance.jpg" height="300" alt="finance">
-          </div>
-          <div class="col-6">
-            <p>With Wall Street’s fast-paced dynamic and ever-changing environment, business demands are always transforming for new and the best talent. Our teams at Open Systems Technologies can help alleviate your stresses of recruiting the best and the brightest. We recognize that time means money, and that statement holds true especially on Wall Street – so we mean it when we say we will save you time and help you in your efforts to recruit the best talent. We understand that Information Technology is an integral aspect of Finance, and Finance IT is a major part of Open Systems Technologies’ core foundation. We are a one stop shop for your Finance IT needs, from support, development and infrastructure to connectivity specialists, business analysts, and project managers. Our sectors include:</p>
-          </div>
         </div>
-        <br>
-        <hr>
-        <br>
-        <br>
-        <div class="row">
-          <div class="col-6">
-            <p>The technology of today is not going to be the technology of tomorrow, and keeping up with the constant innovation and change would be a full time job – a job our team at Open Systems Technologies wakes up every morning ready to take on. Demand for talented IT professionals is ubiquitous, and you need someone who can capture the best and the most qualified pool of talent before anyone else – and that is where we come in. Our 27 years of IT experience has helped our clients secure the right candidates for the right positions. Let us be your IT informant, keeping you up to date and your technology solutions modern. We’ve proven our value in the past in the following sectors:</p>
-          </div>
-          <div class="col-6">
+        <div class="col-6">
+            <p>With Wall Street’s fast-paced dynamic and ever-changing environment, business demands are always
+                transforming for new and the best talent. Our teams can help alleviate your stresses of recruiting the
+                best and the brightest. We recognize that time means money, and that statement holds true especially on
+                Wall Street – so we mean it when we say we will save you time and help you in your efforts to recruit
+                the best talent. We understand that Information Technology is an integral aspect of Finance, and Finance
+                IT is a major part of Advanced System’ core foundation. We are a one stop shop for your Finance IT
+                needs, from support, development and infrastructure to connectivity specialists, business analysts, and
+                project managers.</p>
+        </div>
+    </div>
+    <br>
+    <hr>
+    <br>
+    <br>
+    <div class="row">
+        <div class="col-6">
+            <p>The technology of today is not going to be the technology of tomorrow, and keeping up with the constant
+                innovation and change would be a full time job – a job our team wakes up every morning ready to take on.
+                Demand for talented IT professionals is ubiquitous, and you need someone who can capture the best and
+                the most qualified pool of talent before anyone else – and that is where we come in. Our years of IT
+                experience has helped our clients secure the right candidates for the right positions. Let us be your IT
+                informant, keeping you up to date and your technology solutions modern</p>
+        </div>
+        <div class="col-6">
             <img name="div-img" src="img/it.jpg" height="300" alt="Information technology">
-          </div>
         </div>
-        <br>
-        <hr>
-        <br>
-        <br>
-        <div class="row">
-          <div class="col-6">
+    </div>
+    <br>
+    <hr>
+    <br>
+    <br>
+    <div class="row">
+        <div class="col-6">
             <img name="div-img" src="img/healthcare.jpg" height="300" alt="healthcare">
-          </div>
-          <div class="col-6">
-            <p>Not only do we provide services to the finance and technology world, we also service the healthcare industry with IT professionals as well. We understand the importance of having the right people behind the right projects you hire for, and that’s why our recruiting process is at a premium – it is our specialty to find you only the best candidates. Our Healthcare IT Division focuses specifically on partnering with Healthcare providers (hospitals, clinics, and physician practices) and healthcare payers (insurance companies) to provide IT professionals that meet the specific technology need or each individual client. We can help you with:</p>
-          </div>
         </div>
-        <br>
-        <hr>
-        <br>
-        <br>
-        <div class="row">
-          <div class="col-6">
-            <p>Navigating the rules and regulations of Government integrators isn’t always easy. Our government division, OSGov, recognizes the demands and more importantly, recognizes the solutions. Providing resources in information technology, financial management, and project management, we are here to deploy highly specialized,and experienced personnel within a narrow time frame. Our past success in the following areas speaks for itself.</p>
-          </div>
-          <div class="col-6">
+        <div class="col-6">
+            <p>Not only do we provide services to the finance and technology world, we also service the healthcare
+                industry with IT professionals as well. We understand the importance of having the right people behind
+                the right projects you hire for, and that’s why our recruiting process is at a premium – it is our
+                specialty to find you only the best candidates. Our Healthcare IT Division focuses specifically on
+                partnering with Healthcare providers (hospitals, clinics, and physician practices) and healthcare payers
+                (insurance companies) to provide IT professionals that meet the specific technology need or each
+                individual client</p>
+        </div>
+    </div>
+    <br>
+    <hr>
+    <br>
+    <br>
+    <div class="row">
+        <div class="col-6">
+            <p>Navigating the rules and regulations of Government integrators isn’t always easy. Our government
+                division, ASGov, recognizes the demands and more importantly, recognizes the solutions. Providing
+                resources in information technology, financial management, and project management, we are here to deploy
+                highly specialized,and experienced personnel within a narrow time frame. Our past success in the
+                following areas speaks for itself.</p>
+        </div>
+        <div class="col-6">
             <img name="div-img" src="img/government.jpg" height="300" alt="government projects">
-          </div>
         </div>
-      </div>
+    </div>
+</div>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
 
+<div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
+     aria-hidden="true">
+    <div class="modal-dialog modal-lg" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="exampleModalLabel">Join Our Career Network</h5>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+            </div>
+            <div class="modal-body">
+                <form action="#" method="post">
+                    <div class="row">
+                        <div class="form-group col-6">
+                            <input class="form-control" name="firstname" placeholder="First Name*" type="text">
+                        </div>
+                        <div class="form-group col-6">
+                            <input class="form-control" name="lastname" placeholder="Last Name*" type="text">
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="form-group col-6">
+                            <input class="form-control" name="email" placeholder="Email*" type="email">
+                        </div>
+                        <div class="form-group col-6">
+                            <input class="form-control" name="phone" placeholder="Phone*" type="tel">
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-6">
+                            <div class="input-group mb-3">
+                                <div class="custom-file">
+                                    <input type="file" class="custom-file-input" id="inputGroupFile02">
+                                    <label class="custom-file-label" for="inputGroupFile02">Upload Resume</label>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="form-group col-6">
+                            <select class="form-control" name="jobType">
+                                <option value="">Job Type*</option>
+                                <option value="contract">Contract</option>
+                                <option value="contractToHire">Contract to hire</option>
+                                <option value="fulltime">Fulltime</option>
+                                <option value="all">All</option>
+                            </select>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col">
+                            <textarea class="form-control" placeholder="Additional Comments or Preferences"></textarea>
+                        </div>
+                    </div>
+                </form>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-dismiss="modal" id="close">Close</button>
+                <button type="button" class="btn btn-success" onclick="joinCareerNetwork()">
+                    &nbsp;&nbsp;JOIN&nbsp;&nbsp;
+                </button>
+            </div>
+        </div>
+    </div>
+</div>
 
-      <br>
-      <br>
-      <br>
-      <br>
-      <br>
-      <br>
-    </body>
+<footer class="page-footer font-small blue pt-4">
+    <div class="footer-copyright text-center py-3">
+        © 2020 Copyright:
+        <a href="#">Advanced System, LLC</a>
+        All rights reserved
+    </div>
+</footer>
+
+</body>
 </html>

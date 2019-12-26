@@ -4,55 +4,169 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
-    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700,400italic" as="style" onload="this.onload=null;this.rel='stylesheet'">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+          integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+            integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+            crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+            integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+            crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+            integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+            crossorigin="anonymous"></script>
+    <script src="js/main.js"></script>
+    <script src="js/client.js"></script>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700,400italic" as="style"
+          onload="this.onload=null;this.rel='stylesheet'">
     <link rel="stylesheet" href="main.css">
 </head>
 <body>
-    <header>
-        <nav class="navbar navbar-expand-lg navbar-light bg-light">
-            <a class="navbar-brand" href="#">
-                <img src="/docs/4.0/assets/brand/bootstrap-solid.svg" width="30" height="30" class="d-inline-block align-top" alt="">
-                Advanced System
-            </a>
-            <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-                <div class="navbar-nav">
-                    <a class="nav-item nav-link" href="index.html">Home</a>
-                    <a class="nav-item nav-link active" href="clients.html">Clients</a>
-                    <a class="nav-item nav-link" href="#">About Us</a>
-                    <a class="nav-item nav-link" href="#">Contact Us</a>
-                </div>
+<header>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <a class="navbar-brand" href="#">
+            <img src="/docs/4.0/assets/brand/bootstrap-solid.svg" width="30" height="30"
+                 class="d-inline-block align-top" alt="">
+            Advanced System
+        </a>
+        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+            <div class="navbar-nav">
+                <a class="nav-item nav-link" href="index.html">Home</a>
+                <a class="nav-item nav-link active" href="clients.html">Clients</a>
+                <a class="nav-item nav-link" href="aboutus.html">About Us</a>
+                <a class="nav-item nav-link" href="contactus.html">Contact Us</a>
             </div>
-        </nav>
-    </header>
-    <div class="row" id="slides">
-        <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
-            <div class="carousel-inner">
-                <div class="carousel-item active">
-                    <img class="d-block w-100"  src="img/slide_1.jpg" alt="Hire top professional Test-Automation Engineers">
-                </div>
-                <div class="carousel-item">
-                    <img class="d-block w-100"  src="img/slide_2.jpg" alt="Let us build for you end to end automated QA infrastructure">
-                </div>
-                <div class="carousel-item">
-                    <img class="d-block w-100"  src="img/slide_3.jpg" alt="Request Instructor For Your Team">
-                </div>
+        </div>
+    </nav>
+</header>
+<div class="row" id="slides">
+    <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <img class="d-block w-100" src="img/slide_1.jpg" alt="Hire top professional Test-Automation Engineers">
             </div>
-            <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
-                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                <span class="sr-only">Previous</span>
-            </a>
-            <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
-                <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                <span class="sr-only">Next</span>
-            </a>
+            <div class="carousel-item">
+                <img class="d-block w-100" src="img/slide_2.jpg"
+                     alt="Let us build for you end to end automated QA infrastructure">
+            </div>
+            <div class="carousel-item">
+                <img class="d-block w-100" src="img/slide_3.jpg" alt="Request Instructor For Your Team">
+            </div>
+        </div>
+        <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="sr-only">Previous</span>
+        </a>
+        <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="sr-only">Next</span>
+        </a>
+    </div>
+</div>
+<br>
+<br>
+<br>
+<div class="container" id="request-call">
+    <h1 class="text-center">REQUEST A CALL</h1>
+    <br>
+    <p class="text-center">Request a call from us to discuss our services and price estimation</p>
+    <form action="#" method="post">
+        <div class="row">
+            <div class="form-group col-6">
+                <input class="form-control" name="firstname" placeholder="First Name*" type="text">
+            </div>
+            <div class="form-group col-6">
+                <input class="form-control" name="lastname" placeholder="Last Name*" type="text">
+            </div>
+        </div>
+        <div class="row">
+            <div class="form-group col-6">
+                <input class="form-control" name="phone" placeholder="Phone*" type="tel">
+            </div>
+            <div class="form-group col-6">
+                <select class="form-control" name="service">
+                    <option value="">Service*</option>
+                    <option value="sdet">Hire SDETs</option>
+                    <option value="qa_infr">QA Infrastructure</option>
+                    <option value="instructor">Invite Instructor</option>
+                </select>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col form-group">
+                <textarea class="form-control" placeholder="Additional Comments or Preferences"></textarea>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-4 form-group"></div>
+            <div class="col-4 form-group">
+                <button type="button" class="btn btn-success btn-block" onclick="requestCall()">REQUEST</button>
+            </div>
+            <div class="col-4 form-group"></div>
+        </div>
+    </form>
+
+</div>
+<br>
+<br>
+<br>
+
+<div class="container">
+    <h1 class="text-center">OUR SERVICES</h1>
+    <br>
+    <br>
+    <div class="row">
+        <div class="col-6">
+            <img name="div-img" src="img/slide_1.jpg" height="300" alt="finance">
+        </div>
+        <div class="col-6">
+            <p>We work with elite test-automation engineers.
+                As a network, we have a very rigorous screening process to identify the best. We are experts in our
+                domains, and we look for great problem solvers with passion and drive — the types of people we want to
+                work with (and learn from) ourselves.</p>
         </div>
     </div>
     <br>
+    <hr>
     <br>
     <br>
+    <div class="row">
+        <div class="col-6">
+            <p>We can safe your time and budget. Our team will build and to end automated QA infrastructure for you. We
+                work with latest technologies and tools (Selenium, Protractor, Jasmin, Cucumber, Karate)</p>
+        </div>
+        <div class="col-6">
+            <img name="div-img" src="img/slide_2.jpg" height="300" alt="Information technology">
+        </div>
+    </div>
+    <br>
+    <hr>
+    <br>
+    <br>
+    <div class="row">
+        <div class="col-6">
+            <img name="div-img" src="img/slide_3.jpg" height="300" alt="healthcare">
+        </div>
+        <div class="col-6">
+            <p>We are committed to helping companies find the best instructors. Advanced System has been successful in
+                helping to connect many companies with top tutors, and a key component of this success is our
+                thorough screening and qualification process. We have rigorous qualifications, and only a small fraction
+                of those who apply to be a tutor make it through the vetting process. We specialize in test-automation (Java, Selenium, Cucumber, TestNG, JUnit, Maven, Jenkins, Reporting Tools)</p>
+        </div>
+    </div>
+    <br>
+    <hr>
+    <br>
+    <br>
+</div>
+
+
+<footer class="page-footer font-small blue pt-4">
+    <div class="footer-copyright text-center py-3">
+        © 2020 Copyright:
+        <a href="#">Advanced System, LLC</a>
+        All rights reserved
+    </div>
+</footer>
 </body>
 </html>
