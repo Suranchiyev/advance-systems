@@ -1,0 +1,18 @@
+body{
+  font-family: 'Open Sans', sans-serif;
+
+}
+
+#slides{
+  width: 99%;
+  margin: auto  ;
+  /*height: 500px;*/
+}
+
+button[name='action-btn'] {
+    width: 200px;
+}
+
+img[name='div-img'] {
+    width: 100%;
+}
